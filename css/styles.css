@@ -7,7 +7,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  width: 1600px;
 }
 
 :root {
@@ -36,6 +35,10 @@ body {
 
 .head-menu-list {
   display: flex;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 .menu-li:not(:last-child) {
@@ -116,7 +119,6 @@ body {
   margin-bottom: 0;
   font-weight: 900;
   text-align: center;
-  padding-top: 200px;
 
   font-size: 44px;
   line-height: 1.36;
@@ -125,7 +127,7 @@ body {
   color: var(--color-text-white);
 }
 .title-button {
-  display: block;
+  display: inline-block;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -155,16 +157,25 @@ body {
 }
 
 .hero-fon {
+  text-align: center;
   background-color: #2f303a;
   height: 600px;
+  width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* ПРИНЦИПИ */
 
+.articles {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
 .main-special {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -199,10 +210,13 @@ body {
 
 /* ГАЛЕРЕЯ */
 
+.gallery {
+  padding-bottom: 94px;
+}
+
 .business {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
 
   font-weight: 700;
@@ -213,7 +227,6 @@ body {
 
 .section-img {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .section-img li:not(:last-child) {
@@ -228,16 +241,13 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   margin-top: 0;
-  margin-bottom: 0;
 }
 
 .super-team {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .super-team li:not(:last-child) {
@@ -249,6 +259,8 @@ body {
 
 .our-team {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .our-team h3 {
@@ -257,10 +269,9 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 30px;
-  padding-bottom: 10px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 10px;
 }
 .our-team p {
   font-size: 16px;
@@ -270,6 +281,10 @@ body {
   color: #757575;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.information {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -283,16 +298,18 @@ body {
   background-color: #2f303a;
   display: block;
   height: 252px;
+  width: 1600px;
+  padding-left: 215px;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-logo {
   display: block;
-  padding-top: 60px;
-  padding-left: 215px;
 }
 .footer-kontakt {
   display: block;
-  padding-left: 215px;
   padding-top: 20px;
 }
 .adress {
@@ -308,7 +325,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 9px;
+  margin-top: 9px;
 }
 
 .footer-ul {
@@ -326,21 +343,25 @@ body {
 
 /* П О Р Т Ф О Л І О */
 
-.portfoio-button {
-  display: flex;
-  margin-top: 94px;
-  justify-content: center;
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.portfoio-button li:not(:last-child) {
+.portfoio-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+.portfoio-button > li:not(:last-child) {
   margin-right: 8px;
 }
 
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
-  margin-top: 34px;
 }
 
 .portfolio li {
@@ -373,25 +394,25 @@ body {
   margin-bottom: 30px;
 }
 
+.portfolio-info {
+  padding: 20px 24px;
+}
+
 .portfolio h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-top: 24px;
   margin-bottom: 4px;
-  max-width: 322px;
+  margin-top: 0;
 }
 .portfolio p {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-left: 24px;
   margin-top: 0;
-  margin-bottom: 20px;
-  max-width: 322px;
+  margin-bottom: 0;
 }
 
 .text-none {
