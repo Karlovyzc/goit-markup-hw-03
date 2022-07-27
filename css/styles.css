@@ -160,7 +160,6 @@ body {
   text-align: center;
   background-color: #2f303a;
   height: 600px;
-  width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-right: auto;
@@ -298,19 +297,18 @@ body {
   background-color: #2f303a;
   display: block;
   height: 252px;
-  width: 1600px;
-  padding-left: 215px;
-  padding-top: 50px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
   display: block;
+  margin-bottom: 20px;
 }
 .footer-kontakt {
   display: block;
-  padding-top: 20px;
 }
 .adress {
   font-style: normal;
@@ -325,7 +323,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
 }
 
 .footer-ul {
@@ -352,7 +349,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .portfoio-button > li:not(:last-child) {
